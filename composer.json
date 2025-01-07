@@ -1,44 +1,44 @@
 {
-    "name": "yvesniyo/video-ffmpeg-shaka",
-    "description": "This package allows the user to divide videos into different resolutions and packages them to HLS and DASH with an encryption specified by the user.",
-    "keywords": [
-        "video",
-        "ffmpeg",
-        "shaka",
-        "yveniyo",
-        "DRM",
-        "HLS",
-        "encryption"
-    ],
-    "require": {
-        "php": "^7.2|^7.3|^7.4|^8.0|^8.1",
-        "volman-dev/shaka-php": "master",
-        "php-ffmpeg/php-ffmpeg": ">=^0.19.0"
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "volman-dev/shaka-php",
-                "version": "master",
-                "source": {
-                    "url": "https://github.com/volman-dev/shaka-php.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
+  "name": "xililo/video-ffmpeg-shaka",
+  "description": "This package allows the user to divide videos into different resolutions and packages them to HLS and DASH with an encryption specified by the user.",
+  "keywords": [
+    "video",
+    "ffmpeg",
+    "shaka",
+    "yveniyo",
+    "DRM",
+    "HLS",
+    "encryption"
+  ],
+  "require": {
+    "php": "^7.2|^7.3|^7.4|^8.0|^8.1",
+    "volman-dev/shaka-php": "master",
+    "php-ffmpeg/php-ffmpeg": ">=^0.19.0"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "volman-dev/shaka-php",
+        "version": "master",
+        "source": {
+          "url": "https://github.com/volman-dev/shaka-php.git",
+          "type": "git",
+          "reference": "master"
         }
-    ],
-    "autoload": {
-        "psr-4": {
-            "yvesniyo\\VideoFfmpegShaka\\": "src/"
-        }
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Niyobuhungiro Yves",
-            "email": "niyobuhungiro.yves@gmail.com"
-        }
-    ]
+      }
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "xililo\\VideoFfmpegShaka\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Niyobuhungiro Yves",
+      "email": "niyobuhungiro.yves@gmail.com"
+    }
+  ]
 }

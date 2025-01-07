@@ -1,7 +1,7 @@
 <?php
 require '../vendor/autoload.php';
 
-use yvesniyo\VideoFfmpegShaka\DrmFfmpegPackagerVideo;
+use xililo\VideoFfmpegShaka\DrmFfmpegPackagerVideo;
 
 $fileToProcess = 'D:\Entertainment\Songs\Zaalima full video song _ Raees _ Shah Rukh Khan _ Mahira Khan _ Arijit Singh _ Harshdeep Kaur.mp4';
 $output_path = "./outputs";
